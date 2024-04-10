@@ -45,7 +45,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
                 border: '1px solid #eeeeee',
               }}
             >
-              <h3 class="text-2xl font-semibold">Provide additional feedback</h3>
+              <h3 class="text-2xl font-semibold">Phản hồi câu trả lời chatbot</h3>
               <button
                 class="p-1 ml-auto bg-transparent border-0 text-black float-right text-xl leading-none font-semibold outline-none focus:outline-none"
                 type="button"
@@ -80,7 +80,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
                   border: '1px solid #eeeeee',
                   color: props.textColor ?? defaultTextColor,
                 }}
-                placeholder="What do you think of the response?"
+                placeholder="Bạn đã hài lòng với câu trả lời của chatbot chưa?"
                 value={inputValue()}
               />
             </div>
@@ -90,7 +90,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
                 type="button"
                 onClick={submit}
               >
-                Submit Feedback
+                Gửi đi
               </button>
             </div>
           </div>
